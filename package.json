@@ -1,6 +1,6 @@
 {
   "name": "react-native-markkeyword",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "react-native 高亮关键字",
   "main": "index.js",
   "scripts": {
@@ -11,13 +11,14 @@
     "rn",
     "markKeyWords",
     "Text",
+    "mark",
     "高亮关键字"
   ],
   "author": "赵浩生",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/haipingzi/marKeywords"
+    "url": "https://github.com/haipingzi/react-native-markKeyWord"
   },
-  "homepage": "https://github.com/haipingzi/marKeywords"
+  "homepage": "https://github.com/haipingzi/react-native-markKeyWord"
 }

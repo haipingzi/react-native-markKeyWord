@@ -8,7 +8,7 @@ export default class markKeyWords extends Component {
         keyArr:PropTypes.array,
         markBoxStyle:ViewPropTypes.style,
         markItemStyle:ViewPropTypes.style,
-        markActiveStyle:ViewPropTypes.style,
+        markActiveStyle:ViewPropTypes.object,
     };
     static defaultProps={
         markBoxStyle:{flexDirection: 'row'},
@@ -64,8 +64,8 @@ export default class markKeyWords extends Component {
 
     }
     render(){
-        const {markItemStyle}=this.props;
-        return <View style={markItemStyle}>
+        const {markBoxStyle}=this.props;
+        return <View style={markBoxStyle}>
             {this.markKeyWords()}
     </View>
     }
